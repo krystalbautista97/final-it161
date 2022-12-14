@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Book and CD catalog??</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <meta name="viewport" content="width=device-width" />
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="css/portal.css" />
+  <link rel="stylesheet" href="css/nav.css" />
+ </head>
+ <body>
+     
+     <nav class="topnav" id="myTopnav">
+       <a href="index.html" class="active">Welcome</a>
+       <a href="elements.html">Nav Element1</a>
+       <a href="aia.html">Nav Element2</a>
+       <a href="big/index.html">Nav Element3</a>
+       <a href="contact.php">Contact</a>
+       <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+     </nav>
+     <header>
+      <h1>header tbd...</h1>
+     </header>
+     
+   <div class="wrapper">
+     
+     <img class="desktop" src="images/record1.jpg" alt="Hands looking through vinyls" />
+       
+     <img class="tablet" src="images/book1.jpg" alt="Room full of books" />
+       
+     <img class="phone" src="images/book2.jpg" alt="Brown book spines" />
+       
+       <h2 class="subheader">Lorem Ipsum</h2>
+       
+       <p> Bacon ipsum dolor amet bacon sausage jowl laboris est chicken, pig pork duis bresaola
+        sint. Ribeye eiusmod pancetta, ut pork loin strip steak tempor reprehenderit t-bone
+        shankle. Picanha cupidatat consequat bresaola. Aliqua boudin anim eu laboris adipisicing 
+        exercitation frankfurter tenderloin filet mignon velit et. Nulla esse hamburger, in salami 
+        landjaeger strip steak picanha dolore labore exercitation tempor spare ribs ham. Turducken
+        drumstick minim nulla.
+       </br>
+      </br>
+        Kevin ut pig officia, et qui bresaola ex pork chop ut fugiat shank. In sunt doner cow, 
+        non esse sint fatback pork labore irure commodo. Beef cow incididunt ham hock non. 
+      </br>
+    </br>
+        Tongue tail irure occaecat biltong aliqua veniam voluptate laboris laborum frankfurter 
+        pork belly boudin shankle exercitation.
+      </br>
+    </br>
+        Dolore cillum t-bone pork chop turkey landjaeger magna spare ribs alcatra bacon voluptate.
+        Commodo biltong veniam drumstick ribeye non jerky shank, consectetur et alcatra tri-tip. 
+        Ball tip pork belly jowl ex dolore. Shankle dolore turducken chuck chislic cow ad adipisicing
+        commodo sed flank voluptate laborum anim. </p>
+       
+     <footer>
+      <p><small>&copy; 2022 by 
+          <a href="big\contact.php">Krystal Bautista</a>, All Rights Reserved ~ 
+          <a id="html-checker" href="#">Check HTML</a> ~ 
+          <a id="css-checker" href="#">Check CSS</a></small>
+     </p>
+    </footer>
+  </div>
+     
+  <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
+     
+  <script>
+    //https://tinyurl.com/dynamic-html-checker
+    document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
+      
+    document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);  
+    
+    //manages mobile nav 
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }   
+ </script>
+     
+ </body>
+</html>
