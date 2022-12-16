@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-  <title>Krystal Bautista's Contact Form </title>
+  <title>Contact Form </title>
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <meta name="robots" content="noindex,nofollow" />
   <meta name="viewport" content="width=device-width" />
   <meta charset="utf-8" />
@@ -10,25 +11,22 @@
   <link rel="stylesheet" href="css/forms.css" />
  </head>
  <body>
+ <a href="index.html"><img class="headerimg" src="images\header1.jpg" alt="painting with text welcome collectors"/></a>
      <header>
-     <h1>Krystal's Contact Form</h1>
+     <h1>Contact Form</h1>
      <nav class="topnav" id="myTopnav">
-       <a href="index.html">Welcome</a>
-       <a href="elements.html" >HTML Elements</a>
-       <a href="aia.html" >AIA</a>
-       <a href="big/index.html">BIG</a>
+       <a href="index.html">Home</a>
+       <a href="add.html" class="active">add</a>
        <a href="http://w3schools.com" target="_blank">W3 Schools</a>
        <a href="https://www.linkedin.com/learning/" target="_blank">LinkedIn Learning</a>
-       <a href="flowchart.html" >Flowchart</a>
-       <a href="fp/index.html">Final Project</a>
-       <a href="contact.php" class="active">Contact Krystal</a>
+       <a href="contact.php" class="active">Contact</a>
        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
      </nav>
      </header>
      
    <div class="wrapper">
      
-       <h2 class="subheader"> Contact Krystal</h2>
+       <h2 class="subheader"> Contact us or send suggestions!</h2>
        
        <?php
         /*
@@ -49,7 +47,13 @@
 
 	?>
 
-    
+    <footer>
+      <p><small>&copy; 2022 by 
+          <a href="big\contact.php">Krystal Bautista</a>, All Rights Reserved ~ 
+          <a id="html-checker" href="#">Check HTML</a> ~ 
+          <a id="css-checker" href="#">Check CSS</a>~</small>
+          <a href="disclaimer.html">Disclaimer</a></small>
+     </p>
     </footer>
     
   </div>

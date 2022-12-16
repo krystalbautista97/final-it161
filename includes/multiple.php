@@ -22,7 +22,7 @@
 <form action="<?php echo basename($_SERVER['PHP_SELF']); ?>" method="post">
 <div>
     <label>
-        Name:<br /><input type="text" name="Name" required="required" placeholder="Full Name (required)" title="Name is required" tabindex="10" size="44" autofocus />
+        Name:<br /><input type="text" name="Name" required="required" placeholder="Name (required)" title="Name is required" tabindex="10" size="44" autofocus />
     </label>
 </div>
 <div>	
@@ -47,10 +47,10 @@
 
 <div>	
     <fieldset>
-        <legend>What Services Are You Interested In?</legend>
-        <input type="checkbox" name="Interested_In[]" value="New Website" tabindex="40" /> New Website <br />
-        <input type="checkbox" name="Interested_In[]" value="Website Redesign" /> Website Redesign <br />
-        <input type="checkbox" name="Interested_In[]" value="Special Application" /> Special Application <br />
+        <legend>What Collections Are You Interested In?</legend>
+        <input type="checkbox" name="Interested_In[]" value="Comics" tabindex="40" /> Comics <br />
+        <input type="checkbox" name="Interested_In[]" value="Manga" /> Manga <br />
+        <input type="checkbox" name="Interested_In[]" value="Magazines" /> Magazines <br />
         <input type="checkbox" name="Interested_In[]" value="Lollipops" /> Complimentary Lollipops <br />
         <input type="checkbox" name="Interested_In[]" value="Other" /> Other <br />
     </fieldset>

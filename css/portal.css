@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 html {
-    background-color: rgb(13, 2, 2);
+    background-color: rgb(2, 4, 13);
     font-family: serif;
     font-size: 0.95em;
     line-height: 1.5em;
@@ -19,13 +19,12 @@ h1 {
     font-weight: normal;
     margin: auto;
     line-height: 2.5em;
-    color:rgb(229, 206, 92);
+    color:rgb(191, 178, 115);
     text-align: center;
 }
 
 div.wrapper {
-    background-color: #1c1313;
-    background-color: ;
+    background-color: #0c0d11;
     overflow: auto;
     color: beige
 }
@@ -42,7 +41,7 @@ h2, h3 {
 }
 
 a {
-    color:#d7b943;
+    color:#c1a842;
     text-decoration: none;
 }
 
@@ -98,6 +97,10 @@ footer {
     p {
         margin: 1em;
     }
+    img.headerimg {
+        width: 1245px;
+        height: 120px;
+    }
 }
 
 /* TABLET */
@@ -141,4 +144,12 @@ footer {
     img.desktop, img.tablet {
         display: none;
     }
+
+
+
+
+
+
+
+
 }
